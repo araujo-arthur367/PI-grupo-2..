@@ -1,0 +1,186 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('marca-da-agua.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff8716;
+    padding: 10px 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.icone-livro {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.titulo-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo-if {
+    height: 40px;
+}
+
+.Barra-de-Pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff8716;
+    border-radius: 30px;
+    padding: 12px 30px;
+    margin: 30px auto 0 auto;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    font-size: 18px;
+}
+
+.icone-pesquisa {
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+.Barra-de-Pesquisa input {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    outline: none;
+    width: 220px;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.generos {
+    background-color: #ff8716;
+    border-radius: 20px;
+    padding: 18px 22px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    min-width: 220px;
+    max-width: 260px;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.generos-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.icone-livro-genero {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.generos-lista {
+    display: flex;
+    gap: 18px;
+}
+
+.generos-lista div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.Indicaçao {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    min-width: 260px;
+}
+
+.indicacao-header {
+    background-color:  #ff8716;
+    border-radius: 12px;
+    padding: 6px 18px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 6px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+
+.container-indicaçao1,
+.container-indicaçao2 {
+    background-color: #ff8716;
+    border-radius: 18px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    min-width: 220px;
+}
+
+.container-indicaçao1 img,
+.container-indicaçao2 img {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+
+.info-indicacao p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #ff8716;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}

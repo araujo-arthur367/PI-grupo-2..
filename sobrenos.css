@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('marca-da-agua.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff8716;
+    padding: 10px 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.icone-livro {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.titulo-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo-if {
+    height: 40px;
+}
+
+.sobre-titulo {
+    background-color: #ff8716;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 12px 40px;
+    width: fit-content;
+    margin: 40px auto 24px auto;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.sobre-container {
+    background-color: #ff8716;
+    border-radius: 30px;
+    padding: 32px 40px;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+main {
+    padding-bottom: 70px; /* Espaço para o footer */
+}
+
+footer {
+    background-color: #ff8716;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
